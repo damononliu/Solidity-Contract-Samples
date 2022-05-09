@@ -7,7 +7,7 @@ contract StakingRewards {
 
     uint public rewardRate = 100;
     uint public lastUpdateTime;
-    // 
+    
     uint public rewardPerTokenStored;
 
     mapping(address => uint) public userRewardPerTokenPaid;
