@@ -12,7 +12,8 @@ contract StakingRewards {
 
     mapping(address => uint) public userRewardPerTokenPaid;
     mapping(address => uint) public rewards;
-
+    
+    //
     uint private _totalSupply;
     mapping(address => uint) private _balances;
 
