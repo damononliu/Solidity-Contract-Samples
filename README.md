@@ -4,3 +4,4 @@ Completed:
 Staking.sol
 
 NFT.sol
+StakeNFT.sol
