@@ -6,4 +6,4 @@ Staking.sol
 todo:
 Swap.sol
 NFT.sol
-
+StakeNFT.sol
