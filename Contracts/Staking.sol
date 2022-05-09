@@ -4,7 +4,8 @@ pragma solidity ^0.8;
 contract StakingRewards {
     IERC20 public rewardsToken;
     IERC20 public stakingToken;
-
+    
+    //
     uint public rewardRate = 100;
     uint public lastUpdateTime;
     
