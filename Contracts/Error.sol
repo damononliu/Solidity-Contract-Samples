@@ -12,6 +12,12 @@ contract Error {
         }
     }
 
+    uint public num;
+
+    function testAssert() public view {
+        assert(num == 0);
+    }
+
     error InsufficientBalance(uint balance, uint withdrawAmount);
 
     function testCustomError(uint withdrawAmount) public view {
